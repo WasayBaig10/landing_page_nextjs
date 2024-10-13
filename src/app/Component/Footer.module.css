@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    background-color: aquamarine;
+    justify-content: space-evenly;
+    align-items: center;   
+}
+
+.content{
+    line-height: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    color: black;
+}
+
+.mail{
+    border-radius: 8px;
+    padding-left: 4px;
+    border: 2px solid black;
+
+}

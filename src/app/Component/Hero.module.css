@@ -1,0 +1,44 @@
+.main1{
+    color: cornsilk;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.main2{
+    color: cornsilk;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 29vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@keyframes slideAnime1 {
+    from{
+        transform: translateX(-400px);
+    } 
+    to{
+        transform : translateX(0px)
+    }
+}
+
+.main1{
+    animation:slideAnime1 0.7s ease-in 0.2s 1 normal backwards; 
+}
+
+@keyframes slideAnime2 {
+    from{
+        transform: translateX(-400px);
+    } 
+    to{
+        transform : translateX(0px)
+    }
+}
+
+.main2{
+    animation:slideAnime2 0.7s ease-in 0.4s 1 normal backwards; 
+}
